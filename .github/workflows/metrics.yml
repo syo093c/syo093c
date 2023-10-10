@@ -15,3 +15,11 @@ jobs:
       - uses: syo093c/metrics@9f08a38cc0d40755b5ef1038aec700f6148f7790
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
+          user: syo093c
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Tokyo
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
