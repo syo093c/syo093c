@@ -12,6 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: syo093c/metrics
+      - uses: syo093c/metrics@9f08a38cc0d40755b5ef1038aec700f6148f7790
         with:
           token: ${{ secrets.METRICS_TOKEN }}
